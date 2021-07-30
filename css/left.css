@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,sans-serif;
+}
+
+
+
+.container
+{
+    width: 100%;
+    height: 100%;
+
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F0F2F5;
+
+}
+.row .col-1
+{
+    background: #F0F2F5;
+    flex-basis: 25%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    overflow-y: hidden;
+    height: 100vh;  
+    padding-bottom: 30px;
+ 
+}
+.row .col-1:hover
+{
+    overflow-y: auto;
+}
+
+.row .col-1::-webkit-scrollbar
+{
+    width: 7px;
+}
+.row .col-1::-webkit-scrollbar-track
+{
+    background-color: #E5E8EB;
+    border-radius: 10px;
+}
+.row .col-1::-webkit-scrollbar-thumb
+{
+    background-color: #BCC0C4;
+    border-radius: 10px;
+
+}
+.row .col-1 .circle-img
+{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 3px 8px;
+    margin-right: 5px;
+}
+
+.row .col-1 .circle-img span
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.row .col-1 .circle-img img
+{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.row .col-1 .special-links
+{
+    padding-left: 10px;
+    margin-top: 25px;
+   
+}
+.row .col-1 .special-links a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 8px;
+    border-radius: 5px;
+}
+.row .col-1 .special-links i
+{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.fa-user-md,.fa-tag
+{
+    color: #9D34BB;
+}
+.row .col-1 .special-links .fa-user-friends,.fa-clock,.fa-users
+{
+    color: #3694E8;
+}
+.row .col-1 .special-links .fa-chevron-down
+{
+    font-size: 16px;
+    border-radius: 50%;
+    background: #D8DADF;
+    padding: 10px;
+}
+.row .col-1 .special-links .see:hover
+{
+    background-color: #F0F2F5;
+}
+
+.row .col-1 .special-links a:hover
+{
+    background: #D8DADF;
+}
+
+.row .col-1 .special-shortcut
+{
+    padding-left: 5px;
+    margin-top: 25px;
+}
+.row .col-1 .special-shortcut a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 5px;  
+}
+.row .col-1 .special-shortcut .grp-1
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+.row .col-1 .special-shortcut img
+{
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.row .col-1 .special-shortcut span
+{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.row .col-1 .special-shortcut .grp-1:hover
+{
+    background: #D8DADF;
+}
+
+.row .col-1 .special-shortcut .fa-chevron-down
+{
+    font-size: 16px;
+    border-radius: 50%;
+    background: #D8DADF;
+    padding: 10px;
+    margin-right: 10px;
+}
+.row .col-1 .special-shortcut .see:hover
+{
+    background-color: #F0F2F5;
+}
+
+.row .col-1 .special-shortcut .see:hover
+{
+    background-color: #F0F2F5;
+}
+
+.row .col-1 .line
+{
+    width: 300px;
+    height: 2px;
+    border-radius: 3px;
+    background: #D8DADF;
+    margin: 15px auto;
+}
+
+.row .col-1 .footer p
+{
+   font-size: 13px;
+   color: #BCC0C4;
+   margin-left: 15px;
+   margin-top: 12px;
+}
